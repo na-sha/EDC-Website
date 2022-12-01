@@ -11,15 +11,15 @@ const navLinks = [
     url: "HomeEDC",
   },
   {
+    id: "team",
+    title: "Team",
+    url: "Team",
+  },
+  {
     id: "events",
     title: "Events",
     url: "Events",
   },
-  // {
-  //   id: "team",
-  //   title: "Team",
-  //   url:"Team",
-  // },
   {
     id: "gallery",
     title: "Gallery",

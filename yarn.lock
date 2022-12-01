@@ -323,6 +323,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
+"@popperjs/core@^2.11.6":
+  "integrity" "sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw=="
+  "resolved" "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"
+  "version" "2.11.6"
+
 "@remix-run/router@1.0.0":
   "integrity" "sha512-SCR1cxRSMNKjaVYptCzBApPDqGwa3FGdjVHc+rOToocNPHQdIYLZBfv/3f+KvYuXDkUGVIW9IAzmPNZDRL1I4A=="
   "resolved" "https://registry.npmjs.org/@remix-run/router/-/router-1.0.0.tgz"
@@ -438,6 +443,11 @@
   "integrity" "sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA=="
   "resolved" "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz"
   "version" "2.2.0"
+
+"bootstrap@^5.2.3":
+  "integrity" "sha512-cEKPM+fwb3cT8NzQZYEu4HilJ3anCrWqh3CHAok1p9jXqMPsPTBhU25fBckEJHJ/p+tTxTFTsFQGM+gaHpi3QQ=="
+  "resolved" "https://registry.npmjs.org/bootstrap/-/bootstrap-5.2.3.tgz"
+  "version" "5.2.3"
 
 "braces@^3.0.2", "braces@~3.0.2":
   "integrity" "sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A=="

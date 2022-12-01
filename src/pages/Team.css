@@ -1,0 +1,86 @@
+.wrapper_team {
+    padding: 60px 0;
+}
+
+.wrapper_team .our_team img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper_team .our_team {
+    box-shadow: none;
+    margin-bottom: 10px;
+    transform: translateY(0px);
+    transition: all 0.5s ease 0s;
+}
+
+.wrapper_team .our_team .pro_detail {
+    padding: 15px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #d3d3d3;
+}
+
+.wrapper_team .our_team .pro_detail .pro_name {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 2px;
+    color: white;
+}
+
+.wrapper_team .our_team .pro_detail .pro_desc {
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+}
+
+.wrapper_team .our_team .pro_detail .pro_desc::after {
+    content: "";
+    display: block;
+    margin: 10px 0;
+    border: 1px solid #d3d3d3;
+}
+
+.wrapper_team .our_team .pro_detail .pro_contact {
+    display: block;
+    color: black;
+    font-size: 15px;
+    line-height: 1px;
+    padding: 5px 10px;
+    letter-spacing: 3px;
+    background: yellow
+}
+
+.wrapper_team .our_team .pro_detail .pro_contact i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.wrapper_team .our_team:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 10px 7px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper_our .wrap_item i {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+.wrapper_our .wrap_item strong {
+    display: block;
+    font-size: 26px;
+    color: #000;
+}
+
+.wrapper_our .wrap_item span {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+}

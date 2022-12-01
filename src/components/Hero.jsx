@@ -36,7 +36,6 @@ const Hero = () => {
             <a href="https://linktr.ee/edctiet" target='_blank'>
               <GetStarted />
             </a>
-
           </div>
         </div>
         {/* <h1 className="font-poppins font-semi-bold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">EDC</h1> */}
