@@ -61,43 +61,47 @@ const TeamPage = () => {
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/arpit-taneja-3390a81a0/">
+              <a href="https://www.linkedin.com/in/arpit-taneja-3390a81a0/" target="_blank" rel="noopener noreferrer">
                 <img src={arpit} />
               </a>
               <div className="pro_detail">
                 <h3 className="pro_name">Arpit Taneja</h3>
 
-                <span className="pro_contact">
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9818084700
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/arushi-garg-0509/">
+              <a href="https://www.linkedin.com/in/arushi-garg-0509/" target="_blank" rel="noopener noreferrer">
                 <img src={arushi} />
               </a>
               <div className="pro_detail">
                 <h3 className="pro_name">Arushi Garg</h3>
-                {/* <span className="pro_desc">Director</span> */}
-                <span className="pro_contact">
+                {/* <a href="mailto:agarg5_be20@thapar.edu">
+                  <span className="pro_desc">agarg5_be20@thapar.edu</span>
+                </a> */}
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 6283108001
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/divyansh-kalia-607851196/">
+              <a href="https://www.linkedin.com/in/divyansh-kalia-607851196/" target="_blank" rel="noopener noreferrer">
                 <img src={divyansh} />
               </a>
               <div className="pro_detail">
                 <h3 className="pro_name">Divyansh Kalia</h3>
-                {/* <span className="pro_desc">Director</span> */}
-                <span className="pro_contact">
+                {/* <a href="mailto:dkalia_be20@thapar.edu">
+                  <span className="pro_desc">dkalia_be20@thapar.edu</span>
+                </a> */}
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 7073013567
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
@@ -105,15 +109,17 @@ const TeamPage = () => {
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/hetal-sharma-20a0a31ba/">
+              <a href="https://www.linkedin.com/in/hetal-sharma-20a0a31ba/" target="_blank" rel="noopener noreferrer">
                 <img src={hetal} />
               </a>
               <div className="pro_detail">
                 <h3 className="pro_name">Hetal Sharma</h3>
-                {/* <span className="pro_desc">founder</span> */}
-                <span className="pro_contact">
+                {/* <a href="mailto:hsharma3_be20@thapar.edu">
+                  <span className="pro_desc">hsharma3_be20@thapar.edu</span>
+                </a> */}
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9999398116
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
@@ -124,24 +130,28 @@ const TeamPage = () => {
               </a>
               <div className="pro_detail">
                 <h3 className="pro_name">Lakshya Goel</h3>
-                {/* <span className="pro_desc">Director</span> */}
-                <span className="pro_contact">
+                {/* <a href="mailto:lgoel_be20@thapar.edu">
+                  <span className="pro_desc">lgoel_be20@thapar.edu</span>
+                </a> */}
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9818675905
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/mhuskan-chawla-b437491bb/">
+              <a href="https://www.linkedin.com/in/mhuskan-chawla-b437491bb/" target="_blank" rel="noopener noreferrer">
                 <img src={mhuskan} />
               </a>
               <div className="pro_detail">
                 <h3 className="pro_name">Mhuskan Chawla</h3>
-                {/* <span className="pro_desc">Director</span> */}
-                <span className="pro_contact">
+                {/* <a href="mailto:mchawla_be20@thapar.edu">
+                  <span className="pro_desc">mchawla_be20@thapar.edu</span>
+                </a> */}
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9810871096
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
@@ -150,29 +160,31 @@ const TeamPage = () => {
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/karan-singh-thakur-34735020b/">
+              <a href="https://www.linkedin.com/in/karan-singh-thakur-34735020b/" target="_blank" rel="noopener noreferrer">
                 <img src={karan} />
               </a>{" "}
               <div className="pro_detail">
                 <h3 className="pro_name">Karan Thakur</h3>
                 {/* <span className="pro_desc">founder</span> */}
-                <span className="pro_contact">
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9805231975
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/hasika-tandon-03731b200/">
+              <a href="https://www.linkedin.com/in/hasika-tandon-03731b200/" target="_blank" rel="noopener noreferrer">
                 <img src={hasika} />
               </a>{" "}
               <div className="pro_detail">
                 <h3 className="pro_name">Hasika Tandon</h3>
-                {/* <span className="pro_desc">Director</span> */}
-                <span className="pro_contact">
+                {/* <a href="mailto:Htandon_be20@thapar.edu">
+                  <span className="pro_desc">Htandon_be20@thapar.edu</span>
+                </a> */}
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 7011348626
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
@@ -180,15 +192,15 @@ const TeamPage = () => {
           {/* <div className="row justify-center"> */}
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/pallav-bansal-2008611bb/">
+              <a href="https://www.linkedin.com/in/pallav-bansal-2008611bb/" target="_blank" rel="noopener noreferrer">
                 <img src={pallav} />
               </a>{" "}
               <div className="pro_detail">
                 <h3 className="pro_name">Pallav Bansal</h3>
                 {/* <span className="pro_desc">founder</span> */}
-                <span className="pro_contact">
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9560912780
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
@@ -201,10 +213,12 @@ const TeamPage = () => {
               </a>
               <div className="pro_detail">
                 <h3 className="pro_name">Jaskirat Singh</h3>
-                {/* <span className="pro_desc">Director</span> */}
-                <span className="pro_contact">
+                {/* <a href="mailto:Jsingh19_be20@thapar.edu">
+                  <span className="pro_desc">Jsingh19_be20@thapar.edu</span>
+                </a> */}
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 7696290415
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
@@ -218,10 +232,12 @@ const TeamPage = () => {
               </a>{" "}
               <div className="pro_detail">
                 <h3 className="pro_name">Shivam Taneja</h3>
-                {/* <span className="pro_desc">founder</span> */}
-                <span className="pro_contact">
+                {/* <a href="mailto:staneja_be20@thapar.edu">
+                  <span className="pro_desc">staneja_be20@thapar.edu</span>
+                </a> */}
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9821090076
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
@@ -232,10 +248,12 @@ const TeamPage = () => {
               </a>{" "}
               <div className="pro_detail">
                 <h3 className="pro_name">Paravpreet Singh</h3>
-                {/* <span className="pro_desc">Director</span> */}
-                <span className="pro_contact">
+                {/* <a href="mailto:psingh9_be20@thapar.edu">
+                  <span className="pro_desc">psingh9_be20@thapar.edu</span>
+                </a> */}
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9812884824
-                </span>
+                </span> */}
               </div>
             </div>
           </div>

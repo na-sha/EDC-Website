@@ -26,7 +26,7 @@ import {
     image23,
     image24,
     image25,
-    image30,
+  
     image31,
 } from '../assets/gallery'
 
@@ -64,7 +64,7 @@ const Gallery = () => {
                 <Column><img src={image1} alt="" /><img src={image12} alt="" /><img src={image3} alt="" /><img src={image4} alt="" /><img src={image5} alt="" /><img src={image24} alt="" /></Column>
                 <Column><img src={image6} alt="" /><img src={image7} alt="" /><img src={image8} alt="" /><img src={image9} alt="" /><img src={image10} alt="" /><img src={image23} alt="" /></Column> 
                 <Column><img src={image11} alt="" /><img src={image2} alt="" /><img src={image31} alt="" /><img src={image14} alt="" /><img src={image15} alt="" /><img src={image22} alt="" /></Column>
-                <Column><img src={image16} alt="" /><img src={image17} alt="" /><img src={image30} alt="" /><img src={image19} alt="" /><img src={image20} alt="" /><img src={image21} alt="" /><img src={image25} alt="" /></Column>
+                <Column><img src={image16} alt="" /><img src={image17} alt="" /><img src={image19} alt="" /><img src={image20} alt="" /><img src={image21} alt="" /><img src={image25} alt="" /></Column>
                 {/* <Column><img src={image21} alt="" /><img src={image22} alt="" /><img src={image23} alt="" /><img src={image24} alt="" /><img src={image25} alt="" /></Column>  */}
             </Row>
         </section>
