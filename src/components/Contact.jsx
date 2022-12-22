@@ -20,7 +20,7 @@ const Contact = () => {
                         Have a question? - drop us a message. Feel free to ask us for guidance in entrepeneurship or a question or anything in
                         general you feel should be conveyed. We are always happy to help.
                     </p>
-                    <p>You can also contact us on our socials or <br /><b className='text-gradient'>@: edctiet@thapar.edu</b></p>
+                    <p>You can also contact us on our socials or <br /><b className='text-gradient'>@: edc@thapar.edu</b></p>
                     <div className="absolute z-[0] w-[10%] h-[35%] top-0 pink__gradient" />
                     <div className="absolute z-[1] w-[20%] h-[80%] rounded-full bottom-40 white__gradient" />
                     <div className="absolute z-[0] w-[30%] h-[50%] right-20 bottom-20 blue__gradient" />

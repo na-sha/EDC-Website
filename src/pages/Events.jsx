@@ -19,6 +19,11 @@ const Events = () => {
                 <div className={`${styles.boxWidth}`}>
                     <EventsHeader />
                     <EventsTimeline />
+                </div>
+            </div>
+
+            <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+                <div className={`${styles.boxWidth}`}>
                     <Footer />
                 </div>
             </div>
