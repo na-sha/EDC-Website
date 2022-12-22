@@ -10,6 +10,8 @@ import mhuskan from "../assets/team/mhuskan.jpeg";
 import pallav from "../assets/team/pallav.jpeg";
 import parav from "../assets/team/parav.jpeg";
 import shivam from "../assets/team/shivam.jpeg";
+import mdsingh from "../assets/team/mdsingh.jpg"
+import harpreets from "../assets/team/harpreets.jpg"
 
 
 const TeamPage = () => {
@@ -22,71 +24,125 @@ const TeamPage = () => {
         crossorigin="anonymous"
       ></link>
       <div className="container">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[240.8px] leading-[75px]">
+          <span className="text-gradient">Mentors</span>
+        </h1>
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={arpit} />
-              {/* <div className="pro_detail">
-                <h3 className="pro_name">Robart Muzaddid</h3>
-                <span className="pro_desc">founder</span>
-                <span className="pro_contact">
+              <img src={mdsingh} />
+              <div className="pro_detail">
+                <h3 className="pro_name">Dr. Mandeep Singh</h3>
+                <span className="pro_desc">President, EDC Tiet</span>
+                {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +7488895623
-                </span>
-              </div> */}
+                </span> */}
+              </div>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
-            <div className="our_team"></div>
-            <img src={arushi} />
+            <div className="our_team">
+              <img src={harpreets} />
+              <div className="pro_detail">
+                <h3 className="pro_name">Dr. Harpreet Singh</h3>
+                <span className="pro_desc">Vice President, EDC Tiet</span>
+                {/* <span className="pro_contact">
+                  <i className="fa fa-phone-square"></i> +7488895623
+                </span> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[240.8px] leading-[75px]">
+          <span className="text-gradient">Executive Board</span>
+        </h1>
+        <div className="row justify-center">
+          <div className="col-sm-3 col-md-3">
+            <div className="our_team">
+              <a href="https://www.linkedin.com/in/arpit-taneja-3390a81a0/">
+                <img src={arpit} />
+              </a>
+              <div className="pro_detail">
+                <h3 className="pro_name">Arpit Taneja</h3>
+
+                <span className="pro_contact">
+                  <i className="fa fa-phone-square"></i> +91 9818084700
+                </span>
+              </div>
+            </div>
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={divyansh} />
-              {/* <div className="pro_detail">
-                <h3 className="pro_name">Willson David</h3>
-                <span className="pro_desc">Director</span>
+              <a href="https://www.linkedin.com/in/arushi-garg-0509/">
+                <img src={arushi} />
+              </a>
+              <div className="pro_detail">
+                <h3 className="pro_name">Arushi Garg</h3>
+                {/* <span className="pro_desc">Director</span> */}
                 <span className="pro_contact">
-                  <i className="fa fa-phone-square"></i> +7488895623
+                  <i className="fa fa-phone-square"></i> +91 6283108001
                 </span>
-              </div> */}
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 col-md-3">
+            <div className="our_team">
+              <a href="https://www.linkedin.com/in/divyansh-kalia-607851196/">
+                <img src={divyansh} />
+              </a>
+              <div className="pro_detail">
+                <h3 className="pro_name">Divyansh Kalia</h3>
+                {/* <span className="pro_desc">Director</span> */}
+                <span className="pro_contact">
+                  <i className="fa fa-phone-square"></i> +91 7073013567
+                </span>
+              </div>
             </div>
           </div>
         </div>
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={hetal} />
-              {/* <div className="pro_detail">
-                <h3 className="pro_name">Robart Muzaddid</h3>
-                <span className="pro_desc">founder</span>
+              <a href="https://www.linkedin.com/in/hetal-sharma-20a0a31ba/">
+                <img src={hetal} />
+              </a>
+              <div className="pro_detail">
+                <h3 className="pro_name">Hetal Sharma</h3>
+                {/* <span className="pro_desc">founder</span> */}
                 <span className="pro_contact">
-                  <i className="fa fa-phone-square"></i> +7488895623
+                  <i className="fa fa-phone-square"></i> +91 9999398116
                 </span>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={lakshya} />
-              {/* <div className="pro_detail">
-                <h3 className="pro_name">Willson David</h3>
-                <span className="pro_desc">Director</span>
+              <a href="http://">
+                <img src={lakshya} />
+              </a>
+              <div className="pro_detail">
+                <h3 className="pro_name">Lakshya Goel</h3>
+                {/* <span className="pro_desc">Director</span> */}
                 <span className="pro_contact">
-                  <i className="fa fa-phone-square"></i> +7488895623
+                  <i className="fa fa-phone-square"></i> +91 9818675905
                 </span>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={mhuskan} />
-              {/* <div className="pro_detail">
-                <h3 className="pro_name">Willson David</h3>
-                <span className="pro_desc">Director</span>
+              <a href="https://www.linkedin.com/in/mhuskan-chawla-b437491bb/">
+                <img src={mhuskan} />
+              </a>
+              <div className="pro_detail">
+                <h3 className="pro_name">Mhuskan Chawla</h3>
+                {/* <span className="pro_desc">Director</span> */}
                 <span className="pro_contact">
-                  <i className="fa fa-phone-square"></i> +7488895623
+                  <i className="fa fa-phone-square"></i> +91 9810871096
                 </span>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
@@ -94,85 +150,97 @@ const TeamPage = () => {
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={karan} />
-              {/* <div className="pro_detail">
-                <h3 className="pro_name">Robart Muzaddid</h3>
-                <span className="pro_desc">founder</span>
+              <a href="https://www.linkedin.com/in/karan-singh-thakur-34735020b/">
+                <img src={karan} />
+              </a>{" "}
+              <div className="pro_detail">
+                <h3 className="pro_name">Karan Thakur</h3>
+                {/* <span className="pro_desc">founder</span> */}
                 <span className="pro_contact">
-                  <i className="fa fa-phone-square"></i> +7488895623
+                  <i className="fa fa-phone-square"></i> +91 9805231975
                 </span>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={hasika} />
-              {/* <div className="pro_detail">
-                <h3 className="pro_name">Willson David</h3>
-                <span className="pro_desc">Director</span>
+              <a href="https://www.linkedin.com/in/hasika-tandon-03731b200/">
+                <img src={hasika} />
+              </a>{" "}
+              <div className="pro_detail">
+                <h3 className="pro_name">Hasika Tandon</h3>
+                {/* <span className="pro_desc">Director</span> */}
                 <span className="pro_contact">
-                  <i className="fa fa-phone-square"></i> +7488895623
+                  <i className="fa fa-phone-square"></i> +91 7011348626
                 </span>
-              </div> */}
+              </div>
             </div>
           </div>
 
           {/* <div className="row justify-center"> */}
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={pallav} />
-              {/* <div className="pro_detail">
-                <h3 className="pro_name">Robart Muzaddid</h3>
-                <span className="pro_desc">founder</span>
+              <a href="https://www.linkedin.com/in/pallav-bansal-2008611bb/">
+                <img src={pallav} />
+              </a>{" "}
+              <div className="pro_detail">
+                <h3 className="pro_name">Pallav Bansal</h3>
+                {/* <span className="pro_desc">founder</span> */}
                 <span className="pro_contact">
-                  <i className="fa fa-phone-square"></i> +7488895623
+                  <i className="fa fa-phone-square"></i> +91 9560912780
                 </span>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={jaskirat} />
-              {/* <div className="pro_detail">
-                <h3 className="pro_name">Willson David</h3>
-                <span className="pro_desc">Director</span>
+              <a href="http://">
+                <img src={jaskirat} />
+              </a>
+              <div className="pro_detail">
+                <h3 className="pro_name">Jaskirat Singh</h3>
+                {/* <span className="pro_desc">Director</span> */}
                 <span className="pro_contact">
-                  <i className="fa fa-phone-square"></i> +7488895623
+                  <i className="fa fa-phone-square"></i> +91 7696290415
                 </span>
-              </div> */}
+              </div>
             </div>
           </div>
           {/* </div> */}
 
           {/* <div className="row justify-center"> */}
-            <div className="col-sm-3 col-md-3">
-              <div className="our_team">
+          <div className="col-sm-3 col-md-3">
+            <div className="our_team">
+              <a href="https://www.linkedin.com/in/shivam-taneja-409a961b6/">
                 <img src={shivam} />
-                {/* <div className="pro_detail">
-                <h3 className="pro_name">Robart Muzaddid</h3>
-                <span className="pro_desc">founder</span>
+              </a>{" "}
+              <div className="pro_detail">
+                <h3 className="pro_name">Shivam Taneja</h3>
+                {/* <span className="pro_desc">founder</span> */}
                 <span className="pro_contact">
-                  <i className="fa fa-phone-square"></i> +7488895623
+                  <i className="fa fa-phone-square"></i> +91 9821090076
                 </span>
-              </div> */}
               </div>
             </div>
-            <div className="col-sm-3 col-md-3">
-              <div className="our_team">
+          </div>
+          <div className="col-sm-3 col-md-3">
+            <div className="our_team">
+              <a href="https://www.linkedin.com/in/paravpreetsingh/">
                 <img src={parav} />
-                {/* <div className="pro_detail">
-                <h3 className="pro_name">Willson David</h3>
-                <span className="pro_desc">Director</span>
+              </a>{" "}
+              <div className="pro_detail">
+                <h3 className="pro_name">Paravpreet Singh</h3>
+                {/* <span className="pro_desc">Director</span> */}
                 <span className="pro_contact">
-                  <i className="fa fa-phone-square"></i> +7488895623
+                  <i className="fa fa-phone-square"></i> +91 9812884824
                 </span>
-              </div> */}
               </div>
             </div>
           </div>
         </div>
+      </div>
       {/* </div> */}
     </div>
   );
