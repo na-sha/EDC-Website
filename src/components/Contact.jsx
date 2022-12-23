@@ -81,7 +81,12 @@ const Contact = () => {
                     </form>
                 </div>
             </main>
-            <Footer />
+            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+                <div className={`${styles.boxWidth}`}>
+                    <Footer />
+                </div>
+            </div>
+
 
         </>
     )
