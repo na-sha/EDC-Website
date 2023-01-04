@@ -22,7 +22,8 @@ const Contact = () => {
             <p>
               You can also contact us on our socials or <br />
               <b className="text-gradient">@: edc@thapar.edu</b> <br />
-              <b className="text-gradient">Arpit Taneja: +91 9818084700</b> <br />
+              <b className="text-gradient">Arpit Taneja: +91 9818084700</b>{" "}
+              <br />
               <b className="text-gradient">Arushi Garg: +91 6283108001</b>
             </p>
             <div className="absolute z-[0] w-[10%] h-[35%] top-0 pink__gradient" />
@@ -30,7 +31,12 @@ const Contact = () => {
             <div className="absolute z-[0] w-[30%] h-[50%] right-20 bottom-20 blue__gradient" />
           </div>
           <div>
-            <form class="my-form">
+            <form
+              target="_blank"
+              class="my-form"
+              action="https://formsubmit.co/abhinavgarg7731@gmail.com"
+              method="POST"
+            >
               <div class="grid-container--form ">
                 <ul>
                   <li>
@@ -45,27 +51,56 @@ const Contact = () => {
                   </li>
                   <li>
                     <div classname="grid grid-2">
-                      <input type="text" placeholder="Name" required />
-                      <input type="text" placeholder="Surname" required />
+                      <input
+                        type="text"
+                        placeholder="First name"
+                        id="fname"
+                        name="First name: "
+                        required
+                      />
+                      <input
+                        type="text"
+                        placeholder="Last name"
+                        id="lname"
+                        name="Last name: "
+                        required
+                      />
                     </div>
                   </li>
                   <li>
                     <div classname="grid grid-2">
-                      <input type="email" placeholder="Email" required />
-                      <input type="text" placeholder="Phone" />
+                      <input
+                        type="text"
+                        placeholder="Email"
+                        // class="contact-form-txt"
+                        id="email"
+                        name="Email: "
+                        required
+                      />
+                      {/* <input type="text" placeholder="Phone" /> */}
                     </div>
                   </li>
                   <li>
-                    <textarea placeholder="Message"></textarea>
+                    <textarea
+                      placeholder="Message"
+                      // class="contact-form-textarea"
+                      id="msg"
+                      name="Message: "
+                      required
+                    ></textarea>
                   </li>
+                  
                   {/* <li>
                                     <input type="checkbox" id="terms" />
                                     <label for="terms">I have read and agreed with <a href="">the terms and
                                         conditions.</a></label>
                                 </li> */}
+                                <input type="hidden" name="_captcha" value="false"></input>
+                                {/* <input type="hidden" name="_next" value="#"></input> */}
                   <li>
                     <div class="grid grid-3">
                       <div class="required-msg">REQUIRED FIELDS</div>
+                     
                       <button class="btn-grid" type="submit">
                         <span class="back">
                           <img
@@ -85,6 +120,7 @@ const Contact = () => {
                         <span class="front">RESET</span>
                       </button>
                     </div>
+                    
                   </li>
                 </ul>
               </div>
