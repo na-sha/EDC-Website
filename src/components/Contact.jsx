@@ -34,7 +34,7 @@ const Contact = () => {
             <form
               target="_blank"
               class="my-form"
-              action="https://formsubmit.co/abhinavgarg7731@gmail.com"
+              action="https://formsubmit.co/Edc@thapar.edu"
               method="POST"
             >
               <div class="grid-container--form ">
@@ -89,18 +89,22 @@ const Contact = () => {
                       required
                     ></textarea>
                   </li>
-                  
+
                   {/* <li>
                                     <input type="checkbox" id="terms" />
                                     <label for="terms">I have read and agreed with <a href="">the terms and
                                         conditions.</a></label>
                                 </li> */}
-                                <input type="hidden" name="_captcha" value="false"></input>
-                                {/* <input type="hidden" name="_next" value="#"></input> */}
+                  <input type="hidden" name="_captcha" value="false"></input>
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://edctiet.netlify.app/"
+                  ></input>
                   <li>
                     <div class="grid grid-3">
                       <div class="required-msg">REQUIRED FIELDS</div>
-                     
+
                       <button class="btn-grid" type="submit">
                         <span class="back">
                           <img
@@ -120,7 +124,6 @@ const Contact = () => {
                         <span class="front">RESET</span>
                       </button>
                     </div>
-                    
                   </li>
                 </ul>
               </div>
