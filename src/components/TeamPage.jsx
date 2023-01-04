@@ -12,6 +12,7 @@ import parav from "../assets/team/parav.jpeg";
 import shivam from "../assets/team/shivam.jpeg";
 import rajnish from "../assets/team/rajnish.jpg"
 import harpreets from "../assets/team/harpreets.jpg"
+import styles from "../style";
 
 
 const TeamPage = () => {
@@ -24,7 +25,7 @@ const TeamPage = () => {
         crossorigin="anonymous"
       ></link>
       <div className="container">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[240.8px] leading-[75px]">
+        <h1 className={`${styles.flexCenter} flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[240.8px] leading-[75px]`}>
           <span className="text-gradient">Mentors</span>
         </h1>
         <div className="row justify-center">
@@ -55,7 +56,7 @@ const TeamPage = () => {
         </div>
       </div>
       <div className="container">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[240.8px] leading-[75px]">
+        <h1 className={`${styles.flexCenter} flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[240.8px] leading-[75px]`}>
           <span className="text-gradient">Executive Board</span>
         </h1>
         <div className="row justify-center">
