@@ -17,6 +17,11 @@ const GalleryPage = () => {
             <div className={`bg-primary ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Gallery />
+                </div>
+            </div>
+
+            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+                <div className={`${styles.boxWidth}`}>
                     <Footer />
                 </div>
             </div>
