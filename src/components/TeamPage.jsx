@@ -10,7 +10,7 @@ import mhuskan from "../assets/team/mhuskan.jpeg";
 import pallav from "../assets/team/pallav.jpeg";
 import parav from "../assets/team/parav.jpeg";
 import shivam from "../assets/team/shivam.jpeg";
-import mdsingh from "../assets/team/mdsingh.jpg"
+import rajnish from "../assets/team/rajnish.jpg"
 import harpreets from "../assets/team/harpreets.jpg"
 
 
@@ -30,9 +30,9 @@ const TeamPage = () => {
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={mdsingh} />
+              <img src={rajnish} />
               <div className="pro_detail">
-                <h3 className="pro_name">Dr. Mandeep Singh</h3>
+                <h3 className="pro_name">Dr. Rajnish Malick</h3>
                 <span className="pro_desc">President, EDC Tiet</span>
                 {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +7488895623
@@ -61,13 +61,17 @@ const TeamPage = () => {
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/arpit-taneja-3390a81a0/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/arpit-taneja-3390a81a0/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={arpit} />
               </a>
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Arpit Taneja</h3> */}
+              {/* <h3 className="pro_name">Arpit Taneja</h3> */}
 
-                {/* <span className="pro_contact">
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9818084700
                 </span> */}
               {/* </div> */}
@@ -75,15 +79,19 @@ const TeamPage = () => {
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/arushi-garg-0509/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/arushi-garg-0509/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={arushi} />
               </a>
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Arushi Garg</h3> */}
-                {/* <a href="mailto:agarg5_be20@thapar.edu">
+              {/* <h3 className="pro_name">Arushi Garg</h3> */}
+              {/* <a href="mailto:agarg5_be20@thapar.edu">
                   <span className="pro_desc">agarg5_be20@thapar.edu</span>
                 </a> */}
-                {/* <span className="pro_contact">
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 6283108001
                 </span> */}
               {/* </div> */}
@@ -91,15 +99,19 @@ const TeamPage = () => {
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/divyansh-kalia-607851196/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/divyansh-kalia-607851196/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={divyansh} />
               </a>
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Divyansh Kalia</h3> */}
-                {/* <a href="mailto:dkalia_be20@thapar.edu">
+              {/* <h3 className="pro_name">Divyansh Kalia</h3> */}
+              {/* <a href="mailto:dkalia_be20@thapar.edu">
                   <span className="pro_desc">dkalia_be20@thapar.edu</span>
                 </a> */}
-                {/* <span className="pro_contact">
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 7073013567
                 </span> */}
               {/* </div> */}
@@ -109,15 +121,19 @@ const TeamPage = () => {
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/hetal-sharma-20a0a31ba/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/hetal-sharma-20a0a31ba/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={hetal} />
               </a>
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Hetal Sharma</h3> */}
-                {/* <a href="mailto:hsharma3_be20@thapar.edu">
+              {/* <h3 className="pro_name">Hetal Sharma</h3> */}
+              {/* <a href="mailto:hsharma3_be20@thapar.edu">
                   <span className="pro_desc">hsharma3_be20@thapar.edu</span>
                 </a> */}
-                {/* <span className="pro_contact">
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9999398116
                 </span> */}
               {/* </div> */}
@@ -129,11 +145,11 @@ const TeamPage = () => {
                 <img src={lakshya} />
               </a>
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Lakshya Goel</h3> */}
-                {/* <a href="mailto:lgoel_be20@thapar.edu">
+              {/* <h3 className="pro_name">Lakshya Goel</h3> */}
+              {/* <a href="mailto:lgoel_be20@thapar.edu">
                   <span className="pro_desc">lgoel_be20@thapar.edu</span>
                 </a> */}
-                {/* <span className="pro_contact">
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9818675905
                 </span> */}
               {/* </div> */}
@@ -141,15 +157,19 @@ const TeamPage = () => {
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/mhuskan-chawla-b437491bb/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/mhuskan-chawla-b437491bb/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={mhuskan} />
               </a>
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Mhuskan Chawla</h3> */}
-                {/* <a href="mailto:mchawla_be20@thapar.edu">
+              {/* <h3 className="pro_name">Mhuskan Chawla</h3> */}
+              {/* <a href="mailto:mchawla_be20@thapar.edu">
                   <span className="pro_desc">mchawla_be20@thapar.edu</span>
                 </a> */}
-                {/* <span className="pro_contact">
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9810871096
                 </span> */}
               {/* </div> */}
@@ -160,13 +180,17 @@ const TeamPage = () => {
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/karan-singh-thakur-34735020b/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/karan-singh-thakur-34735020b/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={karan} />
               </a>{" "}
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Karan Thakur</h3> */}
-                {/* <span className="pro_desc">founder</span> */}
-                {/* <span className="pro_contact">
+              {/* <h3 className="pro_name">Karan Thakur</h3> */}
+              {/* <span className="pro_desc">founder</span> */}
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9805231975
                 </span> */}
               {/* </div> */}
@@ -174,15 +198,19 @@ const TeamPage = () => {
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/hasika-tandon-03731b200/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/hasika-tandon-03731b200/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={hasika} />
               </a>{" "}
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Hasika Tandon</h3> */}
-                {/* <a href="mailto:Htandon_be20@thapar.edu">
+              {/* <h3 className="pro_name">Hasika Tandon</h3> */}
+              {/* <a href="mailto:Htandon_be20@thapar.edu">
                   <span className="pro_desc">Htandon_be20@thapar.edu</span>
                 </a> */}
-                {/* <span className="pro_contact">
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 7011348626
                 </span> */}
               {/* </div> */}
@@ -192,13 +220,17 @@ const TeamPage = () => {
           {/* <div className="row justify-center"> */}
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <a href="https://www.linkedin.com/in/pallav-bansal-2008611bb/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/pallav-bansal-2008611bb/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={pallav} />
               </a>{" "}
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Pallav Bansal</h3> */}
-                {/* <span className="pro_desc">founder</span> */}
-                {/* <span className="pro_contact">
+              {/* <h3 className="pro_name">Pallav Bansal</h3> */}
+              {/* <span className="pro_desc">founder</span> */}
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9560912780
                 </span> */}
               {/* </div> */}
@@ -212,11 +244,11 @@ const TeamPage = () => {
                 <img src={jaskirat} />
               </a>
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Jaskirat Singh</h3> */}
-                {/* <a href="mailto:Jsingh19_be20@thapar.edu">
+              {/* <h3 className="pro_name">Jaskirat Singh</h3> */}
+              {/* <a href="mailto:Jsingh19_be20@thapar.edu">
                   <span className="pro_desc">Jsingh19_be20@thapar.edu</span>
                 </a> */}
-                {/* <span className="pro_contact">
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 7696290415
                 </span> */}
               {/* </div> */}
@@ -231,11 +263,11 @@ const TeamPage = () => {
                 <img src={shivam} />
               </a>{" "}
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Shivam Taneja</h3> */}
-                {/* <a href="mailto:staneja_be20@thapar.edu">
+              {/* <h3 className="pro_name">Shivam Taneja</h3> */}
+              {/* <a href="mailto:staneja_be20@thapar.edu">
                   <span className="pro_desc">staneja_be20@thapar.edu</span>
                 </a> */}
-                {/* <span className="pro_contact">
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9821090076
                 </span> */}
               {/* </div> */}
@@ -247,11 +279,11 @@ const TeamPage = () => {
                 <img src={parav} />
               </a>{" "}
               {/* <div className="pro_detail"> */}
-                {/* <h3 className="pro_name">Paravpreet Singh</h3> */}
-                {/* <a href="mailto:psingh9_be20@thapar.edu">
+              {/* <h3 className="pro_name">Paravpreet Singh</h3> */}
+              {/* <a href="mailto:psingh9_be20@thapar.edu">
                   <span className="pro_desc">psingh9_be20@thapar.edu</span>
                 </a> */}
-                {/* <span className="pro_contact">
+              {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +91 9812884824
                 </span> */}
               {/* </div> */}
