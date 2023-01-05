@@ -33,7 +33,7 @@ const Contact = () => {
           <form
             target="_blank"
             class="my-form"
-            action="https://formsubmit.co/abhinavgarg7731@gmail.com"
+            action="https://formsubmit.co/edc@thapar.edu"
             method="POST"
             
           >
@@ -99,7 +99,7 @@ const Contact = () => {
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://edctiet.netlify.app/"
+                  value="https://edcthapar.netlify.app/"
                 ></input>
                 <li>
                   <div class="grid grid-3">
