@@ -3,7 +3,12 @@ import './Contact.css'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
+
 const Contact = () => {
+  
+const handleClick = () => {
+  alert("Form Submitted !");
+};
   return (
     <>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -35,7 +40,6 @@ const Contact = () => {
             class="my-form"
             action="https://formsubmit.co/edc@thapar.edu"
             method="POST"
-            
           >
             <div class="grid-container--form ">
               <ul>
@@ -107,10 +111,8 @@ const Contact = () => {
 
                     <button
                       class="btn-grid"
-                      type="button"
-                      name="add"
-                      id="add"
-                      value="ADD"
+                      onClick={handleClick}
+                      type="submit"
                     >
                       <span class="back">
                         <img
