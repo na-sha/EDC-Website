@@ -16,14 +16,13 @@ const Contact = () => {
           <h1 class="fs-700 uppercase ff-serif">Get in touch</h1>
           <p>
             Have a question? - drop us a message. Feel free to ask us for
-            guidance in entrepeneurship or a question or anything in general
-            you feel should be conveyed. We are always happy to help.
+            guidance in entrepeneurship or a question or anything in general you
+            feel should be conveyed. We are always happy to help.
           </p>
           <p>
             You can also contact us on our socials or <br />
-            <b className="text-gradient">@: edc@thapar.edu</b> <br />
-            <b className="text-gradient">Arpit Taneja: +91 9818084700</b>{" "}
-            <br />
+            <b className="text-gradient">Email: edc@thapar.edu</b> <br />
+            <b className="text-gradient">Arpit Taneja: +91 9818084700</b> <br />
             <b className="text-gradient">Arushi Garg: +91 6283108001</b>
           </p>
           <div className="absolute z-[0] w-[10%] h-[35%] top-0 pink__gradient" />
@@ -34,8 +33,9 @@ const Contact = () => {
           <form
             target="_blank"
             class="my-form"
-            action="https://formsubmit.co/Edc@thapar.edu"
+            action="https://formsubmit.co/abhinavgarg7731@gmail.com"
             method="POST"
+            
           >
             <div class="grid-container--form ">
               <ul>
@@ -105,7 +105,13 @@ const Contact = () => {
                   <div class="grid grid-3">
                     <div class="required-msg">REQUIRED FIELDS</div>
 
-                    <button class="btn-grid" type="submit">
+                    <button
+                      class="btn-grid"
+                      type="button"
+                      name="add"
+                      id="add"
+                      value="ADD"
+                    >
                       <span class="back">
                         <img
                           src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg"

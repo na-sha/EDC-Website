@@ -72,7 +72,7 @@ const Values = () => {
       <Container>
         <Box>
           <Title className='font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
-            'Here's To The Crazy Ones'
+            "Here's To The Crazy Ones"
           </Title>
           <SubText className={`${styles.paragraph} max-w-[450px] mt-5`}>
 

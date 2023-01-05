@@ -78,7 +78,7 @@ export const stats = [
   },
   {
     id: "stats-2",
-    title: "Internship provided",
+    title: "Internships provided",
     value: "500+",
   },
   {
@@ -88,8 +88,8 @@ export const stats = [
   },
   {
     id: "stats-4",
-    title: "Funding Oppertunities",
-    value: "$4million+",
+    title: "Funding Opportunities",
+    value: "$4Mn+",
   },
 ];
 

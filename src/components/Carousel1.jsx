@@ -9,7 +9,17 @@ import "swiper/css/navigation"
 
 import { Pagination, Navigation, Autoplay, EffectCards } from "swiper";
 
-import {image1, image2, image3, image4, image5} from '../assets/gallery'
+import {
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image32,
+  image33,
+  image34,
+  image35,
+} from "../assets/gallery";
 
 const Container = styled.div`
 width: 30vw;
@@ -65,10 +75,10 @@ const Carousel1 = () => {
                 modules={[EffectCards, Pagination, Navigation, Autoplay]}
                 className="mySwiper"
             >
-                <SwiperSlide><img src={image1} /></SwiperSlide>
+                <SwiperSlide><img src={image32} /></SwiperSlide>
                 <SwiperSlide><img src={image2} /></SwiperSlide>
-                <SwiperSlide><img src={image3} /></SwiperSlide>
-                <SwiperSlide><img src={image4} /></SwiperSlide>
+                <SwiperSlide><img src={image33} /></SwiperSlide>
+                <SwiperSlide><img src={image35} /></SwiperSlide>
                 <SwiperSlide><img src={image5} /></SwiperSlide>
             </Swiper>
         </Container>
