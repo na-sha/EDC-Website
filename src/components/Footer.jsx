@@ -1,9 +1,16 @@
 import styles from "../style"
 import { flatLogo } from "../assets"
 import { footerLinks, socialMedia } from "../constants"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 const Footer = () => {
+   const navigate = useNavigate();
+
+     const navigateTeam = () => {
+       // 👇️ navigate to /
+        //  onClick = { scrollToTop };
+       navigate("/team");
+     };
 
   const scrollToTop = () => {
     window.scrollTo(0, 0)
@@ -55,14 +62,18 @@ const Footer = () => {
           Copyright Ⓒ 2022 EDC. All Rights Reserved.
           <br />
           <span className="uppercase">crafted with 🤍</span>{" "}
-          <a
-            href="team"
-          
-            // target="_blank"
-            // rel="noopener noreferrer"
+          {/* <a
+            href="https://edcthapar.netlify.app/team"
+       
+          > */}
+          <b
+            onClick={navigateTeam}
+            // onClick={scrollToTop}
+            className="text-gradient signature"
           >
-            <b className="text-gradient signature">Team EDC</b>
-          </a>
+            Team EDC
+          </b>
+          {/* </a> */}
         </p>
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
