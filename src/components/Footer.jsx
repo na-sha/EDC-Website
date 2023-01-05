@@ -56,7 +56,7 @@ const Footer = () => {
           <br />
           <span className="uppercase">crafted with 🤍</span>{" "}
           <a
-            href="./team"
+            href="team"
           
             // target="_blank"
             // rel="noopener noreferrer"
