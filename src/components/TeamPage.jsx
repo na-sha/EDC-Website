@@ -11,6 +11,7 @@ import pallav from "../assets/team/pallav.jpeg";
 import parav from "../assets/team/parav.jpeg";
 import shivam from "../assets/team/shivam.jpeg";
 import rajnish from "../assets/team/rajnish.jpg"
+import mdsingh from "../assets/team/mdsingh.jpg"
 import harpreets from "../assets/team/harpreets.jpg"
 import styles from "../style";
 
@@ -25,15 +26,17 @@ const TeamPage = () => {
         crossorigin="anonymous"
       ></link>
       <div className="container">
-        <h1 className={`${styles.flexCenter} flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[240.8px] leading-[75px]`}>
+        <h2
+          className={`${styles.flexCenter} flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[240.8px] leading-[75px]`}
+        >
           <span className="text-gradient">Mentors</span>
-        </h1>
+        </h2>
         <div className="row justify-center">
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={rajnish} />
+              <img src={mdsingh} />
               <div className="pro_detail">
-                <h3 className="pro_name">Dr. Rajnish Malick</h3>
+                <h3 className="pro_name">Dr. Mandeep Singh</h3>
                 <span className="pro_desc">President, EDC Tiet</span>
                 {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +7488895623
@@ -43,9 +46,9 @@ const TeamPage = () => {
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="our_team">
-              <img src={harpreets} />
+              <img src={rajnish} />
               <div className="pro_detail">
-                <h3 className="pro_name">Dr. Harpreet Singh</h3>
+                <h3 className="pro_name">Dr. Rajnish Malick</h3>
                 <span className="pro_desc">Vice President, EDC Tiet</span>
                 {/* <span className="pro_contact">
                   <i className="fa fa-phone-square"></i> +7488895623
@@ -56,7 +59,9 @@ const TeamPage = () => {
         </div>
       </div>
       <div className="container">
-        <h1 className={`${styles.flexCenter} flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[240.8px] leading-[75px]`}>
+        <h1
+          className={`${styles.flexCenter} flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[240.8px] leading-[75px]`}
+        >
           <span className="text-gradient">Executive Board</span>
         </h1>
         <div className="row justify-center">

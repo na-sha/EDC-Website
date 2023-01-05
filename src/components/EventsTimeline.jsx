@@ -188,22 +188,43 @@ const Events = ({ title, subtext, picture }) => {
 
 const EventsTimeline = () => {
     return (
-        <Section id='timeline'>
-            <Title className='ss:text-[72px] text-[52px] font-poppins font-semibold text-gradient'>Events</Title>
-            <Container>
-                <SvgContainer>
-                    <DrawSvg />
-                </SvgContainer>
-                <Items className='text-white'>
-                    <Events title='PitchVerse' subtext={`"if you cant explain it simply, you don't know it wel enough." It is time for your critical-thinking and problem-solving skills by puzzling out numerous obstacles to crown yourself as the star of the Pitch Verse.`} picture={pitchverse} />
-                    <Events title='BizConclave' subtext={`An incredible line-up of speakers, spanning from venture capitalists to entrepreneurs`} picture={bizConclave} />
-                    <Events title='Unwind' subtext={`An informal eve filled casual conversions, a fascinating and entertaining evening jam-packed with fun and frolics and an opportunity to attend sessions from the pioneers of the content creation industry.`} picture={unwind} />
-                    <Events title='Internship Fair' subtext={`A plethora of opportunities to gain corporate exposure and develop your skills`} picture={internshipFair} />
-                    <Events title='StartupExpo' subtext={`A fantastic opportunity for your startup to receive funding of up to 30 CRORES! Ready with your product but not confident enough to launch it into the market or trying to reach the relevant customer base? Startup expo will provide you with a platform to showcase your product, get it tested by students & professionals and incorporate valuable feedback from them.`} />
-                </Items>
-            </Container>
-        </Section>
-    )
+      <Section id="timeline">
+        <Title className="ss:text-[72px] text-[52px] font-poppins font-semibold text-gradient">
+          Events
+        </Title>
+        <Container>
+          <SvgContainer>
+            <DrawSvg />
+          </SvgContainer>
+          <Items className="text-white">
+            <Events
+              title="PitchVerse"
+              subtext={`"if you cant explain it simply, you don't know it wel enough." It is time for your critical-thinking and problem-solving skills by puzzling out numerous obstacles to crown yourself as the star of the Pitch Verse.`}
+              picture={pitchverse}
+            />
+            <Events
+              title="BizConclave"
+              subtext={`An incredible line-up of speakers, spanning from venture capitalists to entrepreneurs`}
+              picture={bizConclave}
+            />
+            <Events
+              title="Unwind"
+              subtext={`An informal eve filled casual conversions, a fascinating and entertaining evening jam-packed with fun and frolics and an opportunity to attend sessions from the pioneers of the content creation industry.`}
+              picture={unwind}
+            />
+            <Events
+              title="Internship Fair"
+              subtext={`A plethora of opportunities to gain corporate exposure and develop your skills`}
+              picture={internshipFair}
+            />
+            <Events
+              title="StartupExpo"
+              subtext={`Startup Expo will provide you with a platform to showcase your product, get it tested by Students & Professionals and Incorporate valuable feedback from them.`}
+            />
+          </Items>
+        </Container>
+      </Section>
+    );
 }
 
 export default EventsTimeline
