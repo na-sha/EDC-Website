@@ -25,7 +25,10 @@ const Footer = () => {
 
         <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
           {footerLinks.map((footerlink) => (
-            <div key={footerlink.title} className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
+            <div
+              key={footerlink.title}
+              className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}
+            >
               <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
                 {footerlink.title}
               </h4>
@@ -33,8 +36,9 @@ const Footer = () => {
                 {footerlink.links.map((link, index) => (
                   <li
                     key={link.name}
-                    className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
-                      }`}
+                    className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                      index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
+                    }`}
                     onClick={scrollToTop}
                   >
                     <Link to={`/${link.link}`}>{link.name}</Link>
@@ -48,9 +52,17 @@ const Footer = () => {
 
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
         <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-          Copyright Ⓒ 2022 EDC. All Rights Reserved.<br />
-          <span className="uppercase">crafted with 🤍</span> <a href="https://github.com/na-sha" target="_blank"><b className="text-gradient signature">Team EDC</b></a>
+          Copyright Ⓒ 2022 EDC. All Rights Reserved.
+          <br />
+          <span className="uppercase">crafted with 🤍</span>{" "}
+          <a
+            href="./team"
           
+            // target="_blank"
+            // rel="noopener noreferrer"
+          >
+            <b className="text-gradient signature">Team EDC</b>
+          </a>
         </p>
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
@@ -58,15 +70,16 @@ const Footer = () => {
               key={social.id}
               src={social.icon}
               alt={social.id}
-              className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-                }`}
+              className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+                index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+              }`}
               onClick={() => window.open(social.link)}
             />
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Footer
