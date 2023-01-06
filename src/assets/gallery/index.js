@@ -1,3 +1,4 @@
+import image50 from './50.png'
 import image1 from './1.jpeg'
 import image2 from './2.jpeg'
 import image3 from './3.jpeg'
@@ -38,6 +39,7 @@ import image37 from './37.jpg'
 import image40 from './40.png'
 export {
     image1,
+    image50,
     image2,
     image3,
     image4,

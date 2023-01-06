@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Gradient from './Gradient'
 import styles from '../style'
 import DrawSvg from './DrawSvg'
-import { internshipFair, bizConclave, unwind, pitchverse } from '../assets'
+import { internshipFair, bizConclave, unwind, pitchverse, startupExpo } from '../assets'
 
 const Section = styled.section`
 min-height:100vh;
@@ -220,6 +220,7 @@ const EventsTimeline = () => {
             <Events
               title="StartupExpo"
               subtext={`Startup Expo will provide you with a platform to showcase your product, get it tested by Students & Professionals and Incorporate valuable feedback from them.`}
+              picture={startupExpo}
             />
           </Items>
         </Container>
