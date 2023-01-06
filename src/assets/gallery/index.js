@@ -33,7 +33,9 @@ import image32 from './32.jpg'
 import image33 from './33.jpg'
 import image34 from './34.jpg'
 import image35 from './35.jpg'
-
+import image36 from './36.jpg'
+import image37 from './37.jpg'
+import image40 from './40.png'
 export {
     image1,
     image2,
@@ -69,4 +71,7 @@ export {
     image33,
     image34,
     image35,
+    image40,
+    image36,
+    image37,
   };
