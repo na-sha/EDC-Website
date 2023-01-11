@@ -90,9 +90,9 @@ const Carousel1 = () => {
                 className="mySwiper"
             >
                 <SwiperSlide><img src={image32} /></SwiperSlide>
-                <SwiperSlide><img src={image59} /></SwiperSlide>
-                <SwiperSlide><img src={image37} /></SwiperSlide>
-                <SwiperSlide><img src={image33} /></SwiperSlide>
+                <SwiperSlide><img src={image52} /></SwiperSlide>
+                <SwiperSlide><img src={image54} /></SwiperSlide>
+                <SwiperSlide><img src={image57} /></SwiperSlide>
                 {/* <SwiperSlide><img src={image35} /></SwiperSlide> */}
                 <SwiperSlide><img src={image5} /></SwiperSlide>
             </Swiper>
