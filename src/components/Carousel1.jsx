@@ -33,6 +33,8 @@ import {
   image59,
   image60,
   image61,
+  image62,
+  image63,
 } from "../assets/gallery";
 
 const Container = styled.div`
@@ -90,7 +92,7 @@ const Carousel1 = () => {
                 className="mySwiper"
             >
                 <SwiperSlide><img src={image32} /></SwiperSlide>
-                <SwiperSlide><img src={image52} /></SwiperSlide>
+                <SwiperSlide><img src={image62} /></SwiperSlide>
                 <SwiperSlide><img src={image54} /></SwiperSlide>
                 <SwiperSlide><img src={image57} /></SwiperSlide>
                 {/* <SwiperSlide><img src={image35} /></SwiperSlide> */}
