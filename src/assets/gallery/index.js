@@ -50,6 +50,7 @@ import image60 from './60.jpg'
 import image61 from './61.jpg'
 import image62 from './62.jpeg'
 import image63 from './63.jpeg'
+import image64 from './64.jpeg'
 export {
     image1,
     image50,
@@ -102,4 +103,5 @@ export {
     image61,
     image62,
     image63,
+    image64,
   };

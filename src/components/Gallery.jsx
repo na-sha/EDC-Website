@@ -29,6 +29,7 @@ import {
     
     image31,
     image50,
+    image64,
   } from '../assets/gallery'
   
   const Row = styled.div`
@@ -67,7 +68,7 @@ const Gallery = () => {
           <Column>
 
             <img src={image16} alt="" />
-            <img src={image7} alt="" />
+            <img src={image64} alt="" />
             <img src={image15} alt="" />
           
             <img src={image14} alt="" />
