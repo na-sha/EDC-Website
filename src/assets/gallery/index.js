@@ -37,6 +37,17 @@ import image35 from './35.jpg'
 import image36 from './36.jpg'
 import image37 from './37.jpg'
 import image40 from './40.png'
+import image51 from './51.jpg'
+import image52 from './52.jpg'
+import image53 from './53.jpg'
+import image54 from './54.jpg'
+import image55 from './55.jpg'
+import image56 from './56.jpg'
+import image57 from './57.jpg'
+import image58 from './58.jpg'
+import image59 from './59.jpg'
+import image60 from './60.jpg'
+import image61 from './61.jpg'
 export {
     image1,
     image50,
@@ -76,4 +87,15 @@ export {
     image40,
     image36,
     image37,
+    image51,
+    image52,
+    image53,
+    image54,
+    image55,
+    image56,
+    image57,
+    image58,
+    image59,
+    image60,
+    image61,
   };

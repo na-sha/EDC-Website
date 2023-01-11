@@ -22,7 +22,17 @@ import {
   image36,
   image37,
   image40,
-  
+  image51,
+  image52,
+  image53,
+  image54,
+  image55,
+  image56,
+  image57,
+  image58,
+  image59,
+  image60,
+  image61,
 } from "../assets/gallery";
 
 const Container = styled.div`
@@ -80,7 +90,7 @@ const Carousel1 = () => {
                 className="mySwiper"
             >
                 <SwiperSlide><img src={image32} /></SwiperSlide>
-                <SwiperSlide><img src={image36} /></SwiperSlide>
+                <SwiperSlide><img src={image59} /></SwiperSlide>
                 <SwiperSlide><img src={image37} /></SwiperSlide>
                 <SwiperSlide><img src={image33} /></SwiperSlide>
                 {/* <SwiperSlide><img src={image35} /></SwiperSlide> */}
