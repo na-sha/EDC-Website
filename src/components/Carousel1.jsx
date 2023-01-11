@@ -92,7 +92,7 @@ const Carousel1 = () => {
                 className="mySwiper"
             >
                 <SwiperSlide><img src={image32} /></SwiperSlide>
-                <SwiperSlide><img src={image62} /></SwiperSlide>
+                <SwiperSlide><img src={image63} /></SwiperSlide>
                 <SwiperSlide><img src={image54} /></SwiperSlide>
                 <SwiperSlide><img src={image57} /></SwiperSlide>
                 {/* <SwiperSlide><img src={image35} /></SwiperSlide> */}
