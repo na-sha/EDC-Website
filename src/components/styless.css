@@ -1,0 +1,97 @@
+/* .App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .page-container {
+    margin: 20px;
+    width: 650px;
+    height: 700px;
+    overflow-y: scroll;
+    box-shadow: 0 25px 50px 0 rgba (62, 62, 62, 0.15);
+    -webkit-box-shadow: 0 25px 50px 0 rgb(62 62 62 / 15%);
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }
+  .button-container {
+    display: flex;
+    gap: 8px;
+  } */
+
+  .Proposal{
+    font-family: sans-serif;
+    text-align: center;
+    height: 10%;
+    width: 10%;
+  }
+  
+
+  .my-form .required-msg {
+    display: none;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg) no-repeat center left / 15px 15px;
+    padding-left: 20px;
+}
+
+.dbtn-grid{
+  background-color: aqua;
+  position: relative;
+  overflow: hidden;
+  transition: filter 0.2s;
+}
+
+.my-dform button {
+  /* background-color: gold; */
+  background-color: #F0D556;
+     color: white;
+     font-size: 20px;
+     padding: 10px 60px;
+     border-radius: 5px;
+   margin: 10px 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.my-form .btn-grid {
+    position: relative;
+    overflow: hidden;
+    transition: filter 0.2s;
+}
+
+.my-form button {
+  /* background-color:#002ead; */
+    font-weight: bold;
+}
+
+.my-form button>* {
+    display: inline-block;
+    width: 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.my-form button .back {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-110%, -50%);
+}
+
+.my-form button:enabled:hover .back,
+.my-form button:focus .back {
+    transform: translate(-50%, -50%);
+}
+
+.my-form button:enabled:hover .front,
+.my-form button:focus .front {
+    transform: translateX(110%);
+}
+
+.button:hover {
+  background-color:#002ead;
+  transition: 0.7s;
+}
+

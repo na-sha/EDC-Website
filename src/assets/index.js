@@ -18,6 +18,7 @@ import internshipFair from './internFair.png'
 import bizConclave from './bizConclave.png'
 import unwind from './unwind.png'
 import pitchverse from './pitchverse.png'
+import startupExpo from './se.png'
 
 
 export {
@@ -41,4 +42,5 @@ export {
   bizConclave,
   unwind,
   pitchverse,
+  startupExpo,
 };

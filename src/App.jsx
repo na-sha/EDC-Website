@@ -6,6 +6,7 @@ import GalleryPage from './pages/GalleryPage'
 import HomeEDC from './pages/HomeEDC'
 import Contact from './components/Contact'
 import Team from './pages/Team'
+import SponsorPage from './pages/SponsorPage'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Route path='/team' element={<Team />} />
       <Route path='/events' element={<Events />} />
       <Route path='/gallery' element={<GalleryPage />} />
+      <Route path='/sponsor' element={<SponsorPage />} />
       <Route path='/contact' element={<Contact />} />
     </Routes>
     </>
