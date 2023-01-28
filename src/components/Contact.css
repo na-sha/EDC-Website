@@ -524,6 +524,8 @@ body {
 
 /* MQ  */
 @media screen and (min-width: 45rem) {
+
+    /* scale:{0.2}; */
     .my-form .grid {
         display: grid;
         --gap: 1rem;

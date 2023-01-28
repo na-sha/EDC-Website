@@ -26,6 +26,11 @@ const navLinks = [
     url: "GalleryPage"
   },
   {
+    id: "sponsor",
+    title: "Sponsor",
+    url: "SponsorPage"
+  },
+  {
     id: "contact",
     title: "Contact",
   },

@@ -51,6 +51,23 @@ import image61 from './61.jpg'
 import image62 from './62.jpeg'
 import image63 from './63.jpeg'
 import image64 from './64.jpeg'
+import image65 from './65.png'
+import img2 from './66.png'
+import img3 from './67.png'
+import img4 from './68.png'
+import img5 from './69.jpg'
+import img6 from './70.png'
+import img7 from './71.png'
+import img8 from './72.png'
+import img9 from './73.png'
+import img10 from './74.png'
+import img11 from './75.svg'
+import img12 from './76.png'
+import img13 from './77.jpg'
+import img14 from './78.jpeg'
+import img15 from './79.jpeg'
+import img17 from './1.jpg'
+
 export {
     image1,
     image50,
@@ -104,4 +121,22 @@ export {
     image62,
     image63,
     image64,
+    image65,
+    // img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+    img13,
+    img14,
+    img15,
+  img17,
+
   };
