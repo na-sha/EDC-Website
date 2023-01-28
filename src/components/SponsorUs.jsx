@@ -36,7 +36,7 @@ We have an offline coverage of about 12k students and a good reach online throug
           <form
             target="_blank"
             class="my-form"
-            action="https://formsubmit.co/abhinavgarg7731@gmail.com"
+            action="https://formsubmit.co/edc@thapar.edu"
             method="POST"
           >
             <div class="grid-container--form ">
