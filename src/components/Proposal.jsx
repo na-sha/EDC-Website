@@ -48,7 +48,7 @@ const Proposal= () => {
       <div>
       <div className="container text-center my-12 mx-auto flex">
                    
-    <Pdf file="./prop.pdf" page={page} scale={0.4}>
+    <Pdf file="prop.pdf" page={page} scale={0.4}>
       {({ pdfDocument, pdfPage, canvas  }) => (
         <>
           {Boolean(pdfDocument && pdfDocument.numPages) && (
