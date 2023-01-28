@@ -15,7 +15,7 @@ const SponsorPage = () => {
             </div>
 
             {/* Hero Section */}
-            <div className={`bg-primary ${styles.flexStart}`}>
+            <div className={`bg-primary ${styles.flexStart} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Sponsor />
                 </div>

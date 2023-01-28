@@ -3,28 +3,28 @@ import styles from '../style'
 import './Contact.css'
 import {
 
-image65,
-img2,
-img3,
-img4,
-img5,
-img6,
-img7,
-img8,
-img9,
-img10,
-img11,
-img12,
-img13,
-img14,
-img15,
-  
-  } from '../assets/gallery'
+  image65,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+  img14,
+  img15,
+
+} from '../assets/gallery'
 import SponsorUs from './SponsorUs'
 // import Proposal from './Proposal'
 import Deliverables from './Deliverables'
-  
-  const Row = styled.div`
+
+const Row = styled.div`
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
@@ -51,59 +51,50 @@ img{
 `
 
 const Sponsor = () => {
-    return (
-      <section id="gallery" className={`flex flex-col ${styles.paddingY}`}>
-<Row>
-{/* <div className={`${styles.paddingX} ${styles.flexCenter}`}> */}
-        {/* <div className={`${styles.boxWidth}`}> */}
-  <h1 className={`text-center uppercase ${styles.heading2}`}>
-          <span className="text-gradient">Sponsorship</span> Proposal
-        </h1>
-        <Deliverables />
-          {/* <Proposal /> */}
-        {/* </div> */}
-      {/* </div> */}
-</Row>
-<Row>
+  return (
+    <section id="sponsorship" className={`flex flex-col ${styles.paddingY}`}>
 
-<div className={`${styles.paddingX} ${styles.flexCenter}`}>
-<div className={`${styles.boxWidth}`}>
-  <SponsorUs />
-</div>
-</div>
-</Row>
-        <h1 className={`text-center uppercase ${styles.heading2}`}>
-          <span className="text-gradient">Previous</span> Sponsors
-        </h1>
-        <Row>
-          <Column>
+      <h1 className={`text-center uppercase ${styles.heading2}`}>
+        <span className="text-gradient">Sponsorship</span> Proposal
+      </h1>
 
-            <img src={image65} alt="" />
+      <Deliverables />
 
-            <img src={img5} alt="" />
-            <img src={img9} alt="" />
-            <img src={img12} alt="" />
-          </Column>
-          <Column>
-            <img src={img4} alt="" />
-          <img src={img6} alt="" />  
-          </Column>
-          <Column>
-            <img src={img3} alt="" />
-            <img src={img7} alt="" />
-            <img src={img8} alt="" />
-            <img src={img11} alt="" />
-          </Column>
-          <Column>
-            <img src={img13} alt="" />
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <SponsorUs />
+        </div>
+      </div>
+
+      <h1 className={`text-center uppercase ${styles.heading2}`}>
+        <span className="text-gradient">Previous</span> Sponsors
+      </h1>
+      <Row className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <Column>
+          <img src={image65} alt="" />
+          <img src={img5} alt="" />
+          <img src={img9} alt="" />
+          <img src={img12} alt="" />
+        </Column>
+        <Column>
+          <img src={img4} alt="" />
+          <img src={img6} alt="" />
+        </Column>
+        <Column>
+          <img src={img3} alt="" />
+          <img src={img7} alt="" />
+          <img src={img8} alt="" />
+          <img src={img11} alt="" />
+        </Column>
+        <Column>
+          <img src={img13} alt="" />
           <img src={img2} alt="" />
-          </Column>
-          <Column>
-          </Column>
-          {/* <Column><img src={image21} alt="" /><img src={image22} alt="" /><img src={image23} alt="" /><img src={image24} alt="" /><img src={image25} alt="" /></Column>  */}
-        </Row>
-      </section>
-    );
+        </Column>
+        <Column>
+        </Column>
+      </Row>
+    </section>
+  );
 }
 
 export default Sponsor

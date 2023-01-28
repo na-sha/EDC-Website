@@ -5,22 +5,22 @@ import './Contact.css'
 
 
 const SponsorUs = () => {
-  
-const handleClick = () => {
-  alert("Form Submitted !");
-};
+
+  const handleClick = () => {
+    alert("Form Submitted !");
+  };
   return (
     <>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       </div>
-      <main class="grid-container">
-        <div class="flow">
-          <h1 class="fs-700 uppercase ff-serif">Sponsor Us</h1>
+      <main className="grid-container">
+        <div className="flow">
+          <h1 className="fs-700 uppercase ff-serif">Sponsor Us</h1>
           <p>
-          EDC-TIET is one of the most prominent Entrepreneurship Cells in North India. <br /> 
-We have an offline coverage of about 12k students and a good reach online through our socials. <br /> We also have dedicated teams for the engaging audience both online and offline with more than 50 connected E-Cells across the country, more than 5k followers on Facebook, and a reach of more than 20k through the Instagram handles of our team. 
-{/* Our vision is to foster an entrepreneurial spirit among the youth who wish to create an impact. We aim to provide India's untapped potential with a platform to rise beyond limits. */}
-       <br />     Have a question? - drop us a message. We are always happy to help.
+            EDC-TIET is one of the most prominent Entrepreneurship Cells in North India. <br />
+            We have an offline coverage of about 12k students and a good reach online through our socials. <br /> We also have dedicated teams for the engaging audience both online and offline with more than 50 connected E-Cells across the country, more than 5k followers on Facebook, and a reach of more than 20k through the Instagram handles of our team.
+            {/* Our vision is to foster an entrepreneurial spirit among the youth who wish to create an impact. We aim to provide India's untapped potential with a platform to rise beyond limits. */}
+            <br />     Have a question? - drop us a message. We are always happy to help.
           </p>
           <p>
             You can also contact us on our socials or <br />
@@ -28,20 +28,17 @@ We have an offline coverage of about 12k students and a good reach online throug
             <b className="text-gradient">Arpit Taneja: +91 9818084700</b> <br />
             <b className="text-gradient">Arushi Garg: +91 6283108001</b>
           </p>
-          <div className="absolute z-[0] w-[10%] h-[35%] top-0 pink__gradient" />
-          <div className="absolute z-[1] w-[20%] h-[80%] rounded-full bottom-40 white__gradient" />
-          <div className="absolute z-[0] w-[30%] h-[50%] right-20 bottom-20 blue__gradient" />
         </div>
         <div>
           <form
             target="_blank"
-            class="my-form"
+            className="my-form"
             action="https://formsubmit.co/edc@thapar.edu"
             method="POST"
           >
-            <div class="grid-container--form ">
+            <div className="grid-container--form ">
               <ul>
-               
+
                 <li>
                   <div classname="grid grid-2">
                     <input
@@ -65,7 +62,7 @@ We have an offline coverage of about 12k students and a good reach online throug
                     <input
                       type="text"
                       placeholder="POC Email Id"
-                      // class="contact-form-txt"
+                      // className="contact-form-txt"
                       id="email"
                       name="Email: "
                       required
@@ -76,7 +73,7 @@ We have an offline coverage of about 12k students and a good reach online throug
                 <li>
                   <textarea
                     placeholder="Deliverables you want"
-                    // class="contact-form-textarea"
+                    // className="contact-form-textarea"
                     id="msg"
                     name="Message: "
                   ></textarea>
@@ -94,30 +91,30 @@ We have an offline coverage of about 12k students and a good reach online throug
                   value="https://edcthapar.netlify.app/"
                 ></input>
                 <li>
-                  <div class="grid grid-3">
-                    <div class="required-msg">REQUIRED FIELDS</div>
+                  <div className="grid grid-3">
+                    <div className="required-msg">REQUIRED FIELDS</div>
 
                     <button
-                      class="btn-grid"
+                      className="btn-grid"
                       onClick={handleClick}
                       type="submit"
                     >
-                      <span class="back">
+                      <span className="back">
                         <img
                           src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg"
                           alt=""
                         />
                       </span>
-                      <span class="front">SUBMIT</span>
+                      <span className="front">SUBMIT</span>
                     </button>
-                    <button class="btn-grid" type="reset">
-                      <span class="back">
+                    <button className="btn-grid" type="reset">
+                      <span className="back">
                         <img
                           src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg"
                           alt=""
                         />
                       </span>
-                      <span class="front">RESET</span>
+                      <span className="front">RESET</span>
                     </button>
                   </div>
                 </li>
@@ -127,7 +124,7 @@ We have an offline coverage of about 12k students and a good reach online throug
         </div>
       </main>
       <div className={`${styles.paddingX} ${styles.flexStart}`}>
-        
+
       </div>
     </>
   );

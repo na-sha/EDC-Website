@@ -92,7 +92,7 @@ const DrawSVG = () => {
 
     return (
         <>
-        <Ball ref={ballRef}/>
+        {/* <Ball ref={ballRef}/> */}
         <VectorContainer ref={ref}>
             <Vector />
         </VectorContainer>
