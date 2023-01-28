@@ -161,6 +161,19 @@ export const footerLinks = [
       // },
       {
         name: "Become a Partner",
+        link: "sponsor",
+      },
+    ],
+  },
+  {
+    title: "Help",
+    links: [
+      // {
+      //   name: "Our Partner",
+      //   link: "https://www.hoobank.com/our-partner/",
+      // },
+      {
+        name: "Contact Us",
         link: "contact",
       },
     ],
