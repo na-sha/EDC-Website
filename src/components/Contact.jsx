@@ -5,10 +5,10 @@ import Navbar from './Navbar'
 
 
 const Contact = () => {
-  
-const handleClick = () => {
-  alert("Form Submitted !");
-};
+
+  const handleClick = () => {
+    alert("Form Submitted !");
+  };
   return (
     <>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>

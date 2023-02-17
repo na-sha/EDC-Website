@@ -27,17 +27,6 @@ const Events = () => {
                     <Footer />
                 </div>
             </div>
-
-
-            {/* <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <Stats />
-                    <About />
-                    <Values />
-                    <Footer />
-
-                </div>
-            </div> */}
         </div>
     )
 }

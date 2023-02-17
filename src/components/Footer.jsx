@@ -7,8 +7,6 @@ const Footer = () => {
    const navigate = useNavigate();
 
      const navigateTeam = () => {
-       // 👇️ navigate to /
-        //  onClick = { scrollToTop };
        navigate("/team");
      };
 

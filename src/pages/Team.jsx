@@ -7,12 +7,12 @@ import Footer from '../components/Footer'
 const Team = () => {
     return (
         <div className='bg-black w-full overflow-hidden'>
-            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+            <div className={`z-0 ${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Navbar />
                 </div>
             </div>
-            <div className={`bg-black ${styles.paddingX} ${styles.flexStart}`}>
+            <div className={`bg-black z-0 ${styles.paddingX} ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
                     <TeamPage />
                     <Footer />
