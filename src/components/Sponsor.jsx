@@ -76,6 +76,9 @@ const Sponsor = () => {
           <img src={img9} alt="" />
           <img src={img12} alt="" />
         </Column>
+        {/* <div></div> */}
+        {/* <Column>
+        </Column> */}
         <Column>
           <img src={img4} alt="" />
           <img src={img6} alt="" />
